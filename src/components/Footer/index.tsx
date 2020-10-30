@@ -1,12 +1,10 @@
 import React from 'react'
 
-import './footer.scss'
-
 function Footer() {
   return (
-    <div>
-      
-    </div>
+    <footer>
+      © 2020 - Created by Vy Nguyen
+    </footer>
   )
 }
 

@@ -1,0 +1,19 @@
+// MEDIA QUERY MANAGER
+/*
+
+0 - 600px:          Phone
+600px - 900px       Table Portrait
+900px - 1200px      Table Landscape
+[1200px - 1800px]   Desktop Normal Styles
+1800px +            Big Desktop
+
+*/
+
+@mixin responsive($break-point) {
+  // Big Desktop
+  @if $break-point == big-desktop {
+    @media (min-width: 1800px) {
+      @content;
+    }
+  }
+}

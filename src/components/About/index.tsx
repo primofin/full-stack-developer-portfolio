@@ -1,14 +1,16 @@
 import React from 'react'
 
-import './about.scss'
-
 const About = () => {
   return (
-    <section>
-      <div>
-        <h2>About me</h2>
-        <div>
-          <img src="" alt="" />
+    <section id="about">
+      <div className="about__container">
+        <h2 className="about__title">About me</h2>
+        <div className="about__content-wrapper">
+          <img
+            src="https://images.unsplash.com/photo-1511963211013-83bba110595d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt="personal_img"
+            className="about__content__img"
+          />
           <div>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Voluptatibus maiores, fugiat laudantium reiciendis cupiditate harum
@@ -24,7 +26,6 @@ const About = () => {
             quis quaerat quasi!
           </div>
         </div>
-        <button>Resume</button>
       </div>
     </section>
   )

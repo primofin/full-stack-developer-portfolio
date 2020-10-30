@@ -1,0 +1,23 @@
+.project {
+  &__container {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &__info {
+    &__container {
+      width: 500px;
+      margin: 0 10px;
+    }
+    &__title {
+      text-transform: capitalize;
+    }
+  }
+  &__img {
+    &__item {
+      width: 560px;
+      height: auto;
+    }
+  }
+}

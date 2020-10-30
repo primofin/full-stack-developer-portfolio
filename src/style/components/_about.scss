@@ -1,0 +1,27 @@
+#about {
+  background-color: lightgrey;
+  padding: 40px 0 140px 0;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+}
+.about {
+  &__container {
+    width: 60%;
+    margin: auto;
+  }
+  &__title {
+    margin-top: 0;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  &__content {
+    &-wrapper {
+      display: flex;
+      flex-direction: row;
+    }
+    &__img {
+      width: 360px;
+      height: 360px;
+      margin-right: 10%;
+    }
+  }
+}

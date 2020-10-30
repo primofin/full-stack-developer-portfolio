@@ -5,10 +5,11 @@ import About from './components/About/index'
 import ProjectList from './components/ProjectList/index'
 import Contact from './components/Contact/index'
 import Footer from './components/Footer/index'
+import './style/app.scss'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <Hero />
       <About />
       <ProjectList />

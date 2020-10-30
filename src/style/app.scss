@@ -1,0 +1,16 @@
+@import "./abstracts/mixins";
+@import "./abstracts/variables";
+
+@import "./components/hero";
+@import "./components/about";
+@import "./components/projectList";
+@import "./components/singleProject";
+@import "./components/contact";
+
+.app-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
