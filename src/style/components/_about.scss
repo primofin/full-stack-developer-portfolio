@@ -1,5 +1,5 @@
 #about {
-  background-color: lightgrey;
+  background-image: linear-gradient(135deg, $primary-color, $secondary-color);
   padding: 40px 0 140px 0;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 }

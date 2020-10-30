@@ -4,7 +4,7 @@ import { Link } from 'react-scroll'
 
 const Hero = () => {
   return (
-    <section className="hero__container">
+    <section id="hero" className="hero__container">
       <div>
         <Fade direction="left" duration={1000} delay={500}>
           <h1>

@@ -9,6 +9,7 @@ const ProjectList = () => {
         <h2 className="project-list__title">projects</h2>
         <div className="project-list__content__wrapper">
           <SingleProject />
+          <SingleProject />
         </div>
       </div>
     </section>
