@@ -5,10 +5,12 @@ function Contact() {
     <section id="contact">
       <div className="contact__container">
         <h2 className="contact__title">contact</h2>
+        <p className="contact__text">Would you like to work with me?</p>
         <p className="contact__text">
-          Would you like to work with me? Awesome!
+          Integrify provides consulting and recruitment services for companies.
+          Let’s talk more via JoonaOhra-aho: joona@integrify.io/ +358 400
+          579588.
         </p>
-        <button className="contact__btn">Let's Talk</button>
       </div>
     </section>
   )

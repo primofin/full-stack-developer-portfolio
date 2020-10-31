@@ -1,4 +1,5 @@
 #about {
+  color: $white-color;
   background-image: linear-gradient(135deg, $primary-color, $secondary-color);
   padding: 40px 0 140px 0;
   clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
@@ -12,6 +13,8 @@
     margin-top: 0;
     text-align: center;
     text-transform: uppercase;
+    font-family: Mont-title, sans-serif;
+    font-size: $big-font-size;
   }
   &__content {
     &-wrapper {
