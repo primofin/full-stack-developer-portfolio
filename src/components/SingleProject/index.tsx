@@ -42,7 +42,7 @@ function SingleProject(props: SingleProjectProps) {
       </div>
       <div className="project__img__container">
         <img
-          src="https://images.unsplash.com/photo-1513151233558-d860c5398176?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+          src={project.imgs[0]}
           alt="project-demo-img"
           className="project__img__item"
         />

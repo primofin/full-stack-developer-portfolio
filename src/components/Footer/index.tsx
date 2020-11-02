@@ -10,7 +10,7 @@ function Footer() {
       <div className="footer__container">
         <span className="back-to-top">
           <Link to="hero" smooth duration={1000}>
-            <FontAwesomeIcon icon={faAngleUp} aria-label="back-to-top"/>
+            <FontAwesomeIcon icon={faAngleUp} aria-label="back-to-top" className="back-to-top__icon"/>
           </Link>
         </span>
         <div className="footer__social-links">

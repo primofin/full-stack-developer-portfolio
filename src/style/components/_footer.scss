@@ -34,4 +34,10 @@
 .back-to-top {
   cursor: pointer;
   font-size: 50px;
+  &__icon {
+    transition: all 0.2s ease-in;
+    &:hover {
+      transform: translateY(-4px);
+    }
+  }
 }
