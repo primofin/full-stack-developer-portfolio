@@ -1,6 +1,6 @@
 .project {
   &__container {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -12,6 +12,7 @@
     }
     &__title {
       text-transform: capitalize;
+      font-family: Mont-title, sans-serif;
     }
   }
   &__img {

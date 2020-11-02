@@ -8,7 +8,7 @@ const Hero = () => {
       <div>
         <Fade direction="left" duration={1000} delay={500}>
           <h1>
-            Hi, my name is <span>Vy Nguyen Thanh</span>
+            Hi, my name is <span className="hero__my-name">Vy Nguyen Thanh</span>
             <br />
             I'm a full stack developer
           </h1>
