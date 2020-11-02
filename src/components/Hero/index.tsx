@@ -15,7 +15,7 @@ const Hero = () => {
         </Fade>
         <Fade direction="left" duration={1000} delay={1000}>
           <Link to="about" smooth duration={1000}>
-            <button>know more</button>
+            <button className="hero__more-btn">know more</button>
           </Link>
         </Fade>
       </div>

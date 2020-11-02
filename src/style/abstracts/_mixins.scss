@@ -17,3 +17,19 @@
     }
   }
 }
+
+@mixin transparent-text {
+  background-image: linear-gradient(135deg, $primary-color, $secondary-color);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@mixin transparent-border {
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(135deg, $primary-color, $secondary-color);
+  border-image-slice: 1;
+  cursor: pointer;
+}
