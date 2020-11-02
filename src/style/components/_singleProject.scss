@@ -15,6 +15,28 @@
       font-family: Mont-title, sans-serif;
     }
   }
+  &__btn__live {
+    font-size: $default-font-size;
+    font-family: Mont-title, sans-serif;
+    text-transform: capitalize;
+    @include transparent-text;
+    @include transparent-border;
+    padding: 4px;
+    margin-right: 8px;
+    &:hover {
+      background-clip: padding-box;
+      -webkit-text-fill-color: $white-color;
+    }
+  }
+  &__btn__scode {
+    font-size: $default-font-size;
+    text-transform: capitalize;
+    font-family: Mont-title, sans-serif;
+    padding: 4px;
+    cursor: pointer;
+    border: none;
+    @include transparent-text;
+  }
   &__img {
     &__item {
       width: 560px;

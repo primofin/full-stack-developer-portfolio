@@ -14,8 +14,8 @@ function SingleProject() {
           officiis porro commodi quia.
         </p>
         <div className="project__btn__container">
-          <button>see live</button>
-          <button>source code</button>
+          <button className="project__btn__live">see live</button>
+          <button className="project__btn__scode">source code</button>
         </div>
       </div>
       <div className="project__img__container">
