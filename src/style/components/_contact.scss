@@ -20,4 +20,8 @@
     font-family: Mont-title, sans-serif;
     font-size: $big-font-size;
   }
+  &__info {
+    color: $dark-blue-text;
+    text-decoration: underline;
+  }
 }

@@ -8,8 +8,8 @@ function Contact() {
         <p className="contact__text">Would you like to work with me?</p>
         <p className="contact__text">
           Integrify provides consulting and recruitment services for companies.
-          Let’s talk more via JoonaOhra-aho: joona@integrify.io/ +358 400
-          579588.
+          Let’s talk more via JoonaOhra-aho: {' '}
+          <span className="contact__info">joona@integrify.io/ +358 400 579588.</span>
         </p>
       </div>
     </section>

@@ -1,21 +1,43 @@
 import React from 'react'
 
-function SingleProject() {
+type Project = {
+  id: string
+  imgs: string[]
+  title: string
+  info: string
+  infor2?: string
+  url?: string
+  repo: string
+}
+type SingleProjectProps = {
+  project: Project
+}
+function SingleProject(props: SingleProjectProps) {
+  const { project } = props
   return (
     <div className="project__container">
       <div className="project__info__container">
-        <h3 className="project__info__title">project title</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempore
-          eos consectetur veritatis et asperiores culpa distinctio? Dolorum,
-          culpa natus doloribus debitis exercitationem eos nisi doloremque
-          facilis alias quasi sint sunt libero sapiente provident unde id facere
-          vitae eveniet, optio excepturi. Ducimus ullam dolore temporibus ipsum
-          officiis porro commodi quia.
-        </p>
+        <h3 className="project__info__title">{project.title}</h3>
+        <p>{project.info}</p>
         <div className="project__btn__container">
-          <button className="project__btn__live">see live</button>
-          <button className="project__btn__scode">source code</button>
+          {project.url && (
+            <a
+              href={project.url}
+              rel="noreferrer"
+              target="_blank"
+              className="project__btn__live"
+            >
+              see live
+            </a>
+          )}
+          <a
+            href={project.repo}
+            rel="noreferrer"
+            target="_blank"
+            className="project__btn__scode"
+          >
+            source code
+          </a>
         </div>
       </div>
       <div className="project__img__container">
