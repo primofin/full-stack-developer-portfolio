@@ -20,11 +20,15 @@
     &-wrapper {
       display: flex;
       flex-direction: row;
+      line-height: 1.6;
     }
     &__img {
       width: 360px;
       height: 360px;
       margin-right: 10%;
+    }
+    &__tech-stack {
+      color: $dark-blue-text;
     }
   }
 }

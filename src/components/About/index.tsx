@@ -12,18 +12,17 @@ const About = () => {
             className="about__content__img"
           />
           <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus maiores, fugiat laudantium reiciendis cupiditate harum
-            odio accusamus amet aspernatur magni aliquid velit corrupti alias?
-            Aliquam hic architecto repellendus repudiandae quo nulla
-            consequuntur, rerum fuga alias totam, eius possimus sint ex impedit
-            modi voluptatibus quam sit dolorem deserunt? Quia, ex ducimus saepe
-            quod, eos iusto maxime nesciunt facilis nulla voluptatem quos
-            suscipit animi error quam pariatur ipsam culpa, quae explicabo eius
-            provident. Hic, ipsam? Ipsa nesciunt est veniam tempore sapiente
-            enim non architecto assumenda, officia commodi aut blanditiis minus
-            accusamus provident in consequuntur culpa, omnis a fuga incidunt
-            quis quaerat quasi!
+            Hi there! My name is Vy Nguyen Thanh. I am based in Helsinki,
+            Finland and working as a full-stack developer at Integrify. <br />
+            At Integrify Academy experienced developers boost their careers by
+            upgrading their skills with the newest technologies and development
+            methodologies. During the 5 -month program we focus on working in
+            full-stack development projects with Integrify Academy Tech Stack:
+            <span className="about__content__tech-stack">
+              JavaScript/TypeScript, React, Node.js, PostgreSQL/MongoDB, Docker,
+              AWS
+            </span>
+            , and much more.
           </div>
         </div>
       </div>
