@@ -2,8 +2,20 @@
   &__container {
     width: 60%;
     margin: auto;
+    display: flex;
+    flex-direction: column;
   }
   &__title {
     @include section-title;
+  }
+  &__see-more {
+    align-self: center;
+    color: inherit;
+    text-transform: capitalize;
+    font-family: Mont-title, sans-serif;
+    font-size: $mid-font-size;
+    &:hover {
+      transform: translateY(-4px);
+    }
   }
 }

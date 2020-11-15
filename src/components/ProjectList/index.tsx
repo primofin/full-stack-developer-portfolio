@@ -13,6 +13,14 @@ const ProjectList = () => {
             <SingleProject project={project} key={project.id} />
           ))}
         </div>
+        <a
+          href="https://github.com/vynmetropolia"
+          rel="noreferrer"
+          target="_blank"
+          className="project-list__see-more"
+        >
+          See more
+        </a>
       </div>
     </section>
   )
