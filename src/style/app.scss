@@ -34,9 +34,6 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
-  @include responsive(phone){
-    overflow-x: hidden;
-  }
 }
 
 
