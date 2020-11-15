@@ -16,6 +16,12 @@
       @content;
     }
   }
+  // Phone
+  @if $break-point == phone {
+    @media (max-width: 600px) {
+      @content;
+    }
+  }
 }
 
 @mixin transparent-text {

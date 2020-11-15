@@ -15,6 +15,11 @@
     text-transform: capitalize;
     font-family: Mont-title, sans-serif;
   }
+  &__icon-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
 }
 
 
