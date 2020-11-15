@@ -1,0 +1,20 @@
+.experience {
+  &__container {
+    @include container;
+  }
+  &__title {
+    @include section-title;
+  }
+  &__item {
+    &__title {
+      text-transform: capitalize;
+      font-family: Mont-title, sans-serif;
+    }
+    &__sub-info {
+      color: grey;
+      a {
+        color: inherit;
+      }
+    }
+  }
+}

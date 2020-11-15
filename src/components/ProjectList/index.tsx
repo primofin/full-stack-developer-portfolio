@@ -4,7 +4,6 @@ import SingleProject from '../SingleProject/index'
 import { projectData } from '../../data'
 
 const ProjectList = () => {
-  console.log(projectData)
   return (
     <section id="project-list">
       <div className="project-list__container">

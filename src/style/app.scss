@@ -16,11 +16,14 @@
 body {
   font-family: Mont-body, sans-serif;
   font-size: $default-font-size;
+  line-height: 1.6;
 }
 @import "./components/hero";
 @import "./components/about";
 @import "./components/projectList";
 @import "./components/singleProject";
+@import "./components/skills";
+@import "./components/experience";
 @import "./components/contact";
 @import "./components/footer";
 

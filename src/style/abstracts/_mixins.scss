@@ -33,3 +33,18 @@
   border-image-slice: 1;
   cursor: pointer;
 }
+
+@mixin container {
+  width: 60%;
+  margin: auto;
+}
+@mixin section-title {
+  margin-top: 0;
+  margin-bottom: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: Mont-title, sans-serif;
+  font-size: $big-font-size;
+}
+
+
