@@ -7,7 +7,7 @@ const Hero = () => {
     <section id="hero" className="hero__container">
       <div>
         <Fade direction="left" duration={1000} delay={500}>
-          <h1>
+          <h1 className="hero__intro">
             Hi, my name is <span className="hero__my-name">Vy Nguyen Thanh</span>
             <br />
             I'm a full stack developer

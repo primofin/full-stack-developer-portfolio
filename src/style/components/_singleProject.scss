@@ -12,6 +12,7 @@
     &__container {
       width: 500px;
       margin: 0 10px;
+      margin-right: 40px;
       @include responsive(phone) {
         margin-bottom: 20px;
         width: auto;
@@ -20,6 +21,10 @@
     &__title {
       text-transform: capitalize;
       font-family: Mont-title, sans-serif;
+    }
+    &__tech {
+      color: gray;
+      margin: 0;
     }
   }
   &__btn__live {
@@ -45,13 +50,16 @@
     @include transparent-text;
   }
   &__img {
+    &__container {
+      margin-top: 60px;
+    }
     &__item {
       max-width: 100%;
       width: 560px;
       height: auto;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       @include responsive(phone) {
-        margin-left:10px;
+        margin-left: 10px;
       }
     }
   }

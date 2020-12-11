@@ -10,6 +10,11 @@
     font-family: Mont-title, sans-serif;
     font-size: $big-font-size;
   }
+  &__intro {
+    @include responsive(phone) {
+      font-size: $big-font-size;
+    }
+  }
   &__my-name {
     @include transparent-text;
   }

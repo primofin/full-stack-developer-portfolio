@@ -6,6 +6,7 @@ type Project = {
   title: string
   info: string
   infor2?: string
+  tech: string
   url?: string
   repo: string
 }
@@ -18,6 +19,7 @@ function SingleProject(props: SingleProjectProps) {
     <div className="project__container">
       <div className="project__info__container">
         <h3 className="project__info__title">{project.title}</h3>
+        <h4 className="project__info__tech">{project.tech}</h4>
         <p>{project.info}</p>
         <div className="project__btn__container">
           {project.url && (
