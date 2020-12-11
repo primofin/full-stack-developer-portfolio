@@ -13,6 +13,8 @@
   &__intro {
     @include responsive(phone) {
       font-size: $big-font-size;
+      margin-right: 20px;
+      margin-left: 20px;
     }
   }
   &__my-name {
@@ -25,6 +27,10 @@
     padding: 10px;
     @include transparent-text;
     @include transparent-border;
+    @include responsive(phone) {
+      margin-right: 20px;
+      margin-left: 20px;
+    }
   }
   &__more-btn:hover {
     background-clip: padding-box;
