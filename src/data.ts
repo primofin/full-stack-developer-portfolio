@@ -35,7 +35,7 @@ export const projectData = [
       elements, validating user inputs, and optimizing application performance.`,
     info2: '',
     tech: 'React.js, React Native, NativeBase, JavaScript, Expo CLI, CSS',
-    url: '',
+    url: 'https://expo.io/@vynmetropolia/projects/cloud-home',
     repo: 'https://github.com/dendimaniac/airbnb-clone', // if no repo, the button will not show up
   },
 ]

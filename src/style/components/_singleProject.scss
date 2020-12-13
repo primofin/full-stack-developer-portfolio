@@ -40,14 +40,16 @@
       -webkit-text-fill-color: $white-color;
     }
   }
-  &__btn__scode {
-    font-size: $default-font-size;
-    text-transform: capitalize;
-    font-family: Mont-title, sans-serif;
-    padding: 4px;
-    cursor: pointer;
-    border: none;
-    @include transparent-text;
+  &__btn {
+    &__scode {
+      font-size: $default-font-size;
+      text-transform: capitalize;
+      font-family: Mont-title, sans-serif;
+      padding: 4px;
+      cursor: pointer;
+      border: none;
+      @include transparent-text;
+    }
   }
   &__img {
     &__container {
