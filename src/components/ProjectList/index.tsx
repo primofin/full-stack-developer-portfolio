@@ -2,6 +2,7 @@ import React from 'react'
 
 import SingleProject from '../SingleProject/index'
 import { projectData } from '../../data'
+// import { projectUrl } from '../../constants/urlConstants'
 
 const ProjectList = () => {
   return (

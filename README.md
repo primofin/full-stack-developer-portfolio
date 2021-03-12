@@ -6,5 +6,6 @@
 - TypeScript
 - React
 - Sass
+- Contentful
 
 Inspired by [cobidev](https://github.com/cobidev)
