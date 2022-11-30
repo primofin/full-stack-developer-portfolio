@@ -11,7 +11,7 @@ const Experience = () => {
             <h3 className="experience__item__title">{experience.job_title}</h3>
             <div className="experience__item__sub-info">
               <a
-                href="https://www.integrify.io/en/"
+                href={experience.website}
                 rel="noreferrer"
                 target="_blank"
               >
