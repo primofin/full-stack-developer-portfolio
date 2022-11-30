@@ -47,7 +47,7 @@ export const experiences = [
     company: 'Integrify',
     location: 'Helsinki, Finland',
     starting: 'August 2020',
-    ending: 'Present',
+    ending: 'October 2021',
     responsibilities: [
       `Taking numerous responsibilities in front-end development with JavaScript and TypeScript
     and applied frameworks and other tools such  React.js and Redux among many others.`,
@@ -55,6 +55,22 @@ export const experiences = [
       `Building and managing databases with MongoDB and PostgreSQL.`,
       `Conducting software tests with Jest.`,
       `Collaborating with other developers of different seniority via GitHub Actions.`,
+    ],
+  },
+    {
+    id: nanoid(),
+    job_title: 'Junior Software Engineer',
+    company: 'Topcon Positioning Systems',
+    location: 'Helsinki, Finland',
+    starting: 'November 2020',
+    ending: 'Present',
+    responsibilities: [
+      `Work with team members to design, develop and test software.`,
+      `Produce clean, efficient code based on specifications.`,
+      `Integrate software components and third-party programs.`,
+      `Verify and deploy programs and systems.`,
+      `Gather and evaluate user feedback.`,
+      `Recommend and execute improvements.`,
     ],
   },
 ]
