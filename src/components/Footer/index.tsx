@@ -32,7 +32,7 @@ function Footer() {
           </a>
         </div>
         <hr className="footer__hr" />
-        <div className="footer__text">© 2020 - Created by Vy Nguyen</div>
+        <div className="footer__text">© 2022 - Created by Vy Nguyen</div>
       </div>
     </footer>
   )
