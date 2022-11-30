@@ -48,6 +48,7 @@ export const experiences = [
     location: 'Helsinki, Finland',
     starting: 'August 2020',
     ending: 'October 2021',
+    website: 'https://www.integrify.io/',
     responsibilities: [
       `Taking numerous responsibilities in front-end development with JavaScript and TypeScript
     and applied frameworks and other tools such  React.js and Redux among many others.`,
@@ -64,6 +65,7 @@ export const experiences = [
     location: 'Helsinki, Finland',
     starting: 'November 2021',
     ending: 'Present',
+    website: 'https://www.topconpositioning.com/',
     responsibilities: [
       `Work with team members to design, develop and test software.`,
       `Produce clean, efficient code based on specifications.`,
