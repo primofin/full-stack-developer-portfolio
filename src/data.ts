@@ -62,7 +62,7 @@ export const experiences = [
     job_title: 'Junior Software Engineer',
     company: 'Topcon Positioning Systems',
     location: 'Helsinki, Finland',
-    starting: 'November 2020',
+    starting: 'November 2021',
     ending: 'Present',
     responsibilities: [
       `Work with team members to design, develop and test software.`,
